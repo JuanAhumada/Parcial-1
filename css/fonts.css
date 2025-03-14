@@ -1,0 +1,72 @@
+h2{
+    font-size: 40px;
+    padding: 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+h4 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+#hero h1{
+    font-size: 86px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: #262d38;
+    line-height: 1;
+    margin: 20px 0;
+}
+
+footer li{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+
+.card-title{
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card-text{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+
+nav ul li a{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
