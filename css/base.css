@@ -7,7 +7,6 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     background-color: #8eadd5;
-    
 }
 
 body{
@@ -173,7 +172,7 @@ footer{
     a{
         background-color: #262d38;
         border-radius: 5px;
-        width: 30%;
+        width: 50%;
         text-align: center;
         padding: 10px;
         margin: 20px;
@@ -219,6 +218,10 @@ footer{
 
     }
 
+    .img img{
+        width: 100%;
+    }
+
     .text{
         width: 100%;
     }
@@ -232,6 +235,7 @@ footer{
     .card {
         flex: 1 1 calc(50% - 2rem);
         margin: 20px;
+        min-width: 100%;
     }
     .hide {
         display: none;
@@ -248,5 +252,16 @@ footer{
         position: absolute;
         top: 35px;
         right: 10px;
+    }
+    #hero h1{
+        font-size: 48px;
+    }
+
+    #logos{
+        width: auto;
+    }
+
+    #logos img{
+        width: 22%;
     }
 }
