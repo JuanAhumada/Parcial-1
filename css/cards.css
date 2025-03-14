@@ -12,8 +12,8 @@
     border-radius: 10px;
     overflow: hidden;
     display: flex;
-    max-width: 400px;
-    min-width: 300px;
+    max-width: 30%;
+    min-width: 30%;
     flex-direction: column;
     background: #fff;
     margin: 5px;
@@ -55,4 +55,17 @@
     background-color: #d4efff;
     border-radius: 10px;
     padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    #cards-container{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .card {
+        flex: 1 1 calc(50% - 2rem);
+        margin: 20px;
+        min-width: 100%;
+    }
 }
